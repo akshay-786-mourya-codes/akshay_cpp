@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main(){
+   int a, b, c, d;
+   cout<<"enter a and b"<<endl;
+   cin>>a>>b;
+   cout<<"enter c and d"<<endl;
+   cin>>c>>d;
+   cout<<(a>b || c>d);
+   cout<<endl;
+   cout<<"and condition"<<endl;
+   cout<<(a>b && c>d);
+   }
