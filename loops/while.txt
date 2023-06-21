@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int main(){
+ int i=1;
+int input;
+ cout<<"start entering the no"<<endl;
+ while(i<50){
+  cin>>input;
+  if(input==27){
+   cout<<"u have gussed correct"<<endl;
+    break;
+}
+return 0;
+}
