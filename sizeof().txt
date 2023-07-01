@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int a;
+    long b;
+    long long c;
+    float f;
+    char d;
+    cout<<"size of int is "<<sizeof(a)<<endl;
+     cout<<"size of long is "<<sizeof(b)<<endl;
+      cout<<"size of long long is "<<sizeof(c)<<endl;
+       cout<<"size of float is "<<sizeof(f)<<endl;
+        cout<<"size of char is "<<sizeof(d)<<endl;
+        return 0;
+}
