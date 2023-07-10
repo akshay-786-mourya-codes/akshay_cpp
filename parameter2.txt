@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+void minandmax(int *a, int *min, int *max){
+    //whatever we changed in the function it will reflect outside the function also
+    int i;
+    int small = a[0];
+    int large = a[0];
+    for(int i=0; i<6; i++){
+        if(a[i]>large){
+            large = a[i];
+        }
+        if(a[i]<small){
+            small =a[i];
+        }
+    }
+    if(large<*max)
+      cout<<"given array elements are less than input max"<<endl;
+    else if(*min<small)
+      cout<<"given array elements are not smaller than input min"<<endl;
+}
+
+
+int main(){
+    int a[5];
+    int min, max;
+    cin>>min>>max;
+    for(int i=0; i<5; i++){
+        a[i]=i;
+    }
+    minandmax(a, &min, &max);
+}
