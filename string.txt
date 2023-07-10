@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main(){
+  string a,b;
+  cout<<"enter first string "<<endl;
+  cin>>a;
+  cout<<"enter second string "<<endl;
+  cin>>b;
+  cout<<"the strings entered by you is "<<a<<"  "<<b<<endl;
+  string c;
+  //concatenation of two strings
+  c = a + b;
+  cout<<"after concatenation of two strings become "<<c;
+  cout<<"the length of the strings is "<<c.length();
+ /*  getline(cin,a);
+   cout<<"value is "<<a;*/
+}
