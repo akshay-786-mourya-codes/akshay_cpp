@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+int main(){
+    char a[100];
+    int n;
+   //takes only one input character and also print only first char
+   // cin>>a[0];
+   // cout<<"val is  "<<a<<endl;
+    //taking input in loop
+    cout<<"How many input character you want to enter"<<endl;
+    cin>>n;
+    for(int i=0; i<n;i++){
+        cin>>a[i];
+    }
+    //showing the output of the character array ;
+    for(int i=0; i<n;i++){
+        cout<<"value of a"<<i<<" is "<<a[i]<<endl;
+    }
+}
